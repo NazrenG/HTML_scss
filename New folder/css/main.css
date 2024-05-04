@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.dashboard {
+  width: 1600px;
+  background-color: #f8f8f8;
+  display: grid;
+  grid-template-columns: 96px auto;
+}
+
+.dashboard__menu {
+  width: 96px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 20px;
+  display: grid;
+  -webkit-columns: 1;
+     -moz-columns: 1;
+          columns: 1;
+  grid-template-rows: 80px 60px 80px 80px 80px 80px 80px 80px 80px 284px;
+}
+
+.menu {
+  background-color: white;
+  border-style: none;
+}
+
+.item10_icon {
+  margin-top: 150px;
+}
+
+.dashboard__main {
+  width: 1420px;
+  margin: 0 auto;
+}
+
+.dashboard__header {
+  width: 1420px;
+  display: grid;
+  grid-template-columns: 1215px auto;
+  padding: 26px 0px;
+}
+
+.dashboard__search {
+  width: 77px;
+  display: grid;
+  grid-template-columns: 24px auto;
+}
+
+.search__text {
+  width: 45px;
+  height: 20px;
+  padding: 2px;
+  opacity: 40%;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
+.dashboard__user_icons {
+  width: 204px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  -webkit-column-gap: 9px;
+     -moz-column-gap: 9px;
+          column-gap: 9px;
+}
+
+.user_icons_circle {
+  width: 44px;
+  height: 44px;
+  background-color: #4339f2;
+  color: white;
+  border-radius: 50px;
+}
+
+.circle__plus {
+  font-weight: 700;
+  padding: 4px 12px;
+  font-size: xx-large;
+}
+
+.user {
+  position: relative;
+}
+
+.user__oval {
+  position: absolute;
+  top: 58px;
+  left: 1388px;
+}
+
+.dashboard__cards {
+  width: 1424px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  -webkit-column-gap: 29px;
+     -moz-column-gap: 29px;
+          column-gap: 29px;
+  margin-bottom: 20px;
+}
+
+.dashboard__card {
+  width: 390px;
+  background-color: #4339f2;
+  border-radius: 10px;
+  padding: 30px;
+  color: white;
+}
+
+.red {
+  background-color: #ff3a29;
+}
+
+.green {
+  background-color: #34b53a;
+}
+
+.card__div {
+  display: grid;
+  grid-template-columns: 270px auto;
+}
+
+.card__text {
+  width: auto;
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28.64px;
+  text-align: left;
+}
+
+.card__username {
+  width: 120px;
+  margin-bottom: 15px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
+.card__date {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26.04px;
+  text-align: left;
+}
+
+.card_name {
+  margin-bottom: 15px;
+}
+
+.card_num {
+  margin-bottom: 35px;
+}
+
+.bank_name {
+  margin-bottom: 50px;
+}
+
+.card__icon {
+  margin-left: 110px;
+}
+
+.dashboard__users {
+  width: 1424px;
+  display: grid;
+  grid-template-rows: 110px 110px 110px 110px;
+  row-gap: 40px;
+}
+
+.group__div {
+  width: 1400px;
+  height: 110px;
+  background-color: white;
+  border-radius: 10px;
+  display: grid;
+  padding: 25px 0px 0px 20px;
+  grid-template-columns: 223px 54px 111px 88px 61px 40px;
+  -webkit-column-gap: 140px;
+     -moz-column-gap: 140px;
+          column-gap: 140px;
+}
+
+.group__profile {
+  display: grid;
+  width: 350px;
+  grid-template-columns: 70px auto;
+  -webkit-column-gap: 15px;
+     -moz-column-gap: 15px;
+          column-gap: 15px;
+}
+
+.group__texts {
+  padding: 15px 0px;
+}
+
+.group__nickname {
+  font-family: sans-serif;
+  width: auto;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28.64px;
+  text-align: left;
+}
+
+.group__username {
+  width: auto;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  opacity: 40%;
+}
+
+.money {
+  color: #4339f2;
+}
+
+.group__arrow_icon {
+  padding: 25px 0px 25px 100px;
+}
